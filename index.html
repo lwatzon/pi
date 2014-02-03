@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pi Controller</title>
+    <script type="text/javascript" src="Scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="Scripts/knockout-3.0.0.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="Scripts/app.js"></script>
+    <script>
+
+
+
+        //$(document).ready(function () {
+        //    now.receiveMessage = function (name, message) {
+        //        $("#messages").prepend("<br>" + name + ": " + message);
+        //    };
+
+        //    $("#send-button").click(function () {
+        //        now.distributeMessage($("#text-input").val());
+        //        $("#text-input").val("");
+        //    });
+
+        //    $("#on").click(function () {
+        //        now.turnLEDon();
+        //    });
+
+        //    $("#off").click(function () {
+        //        now.turnLEDoff();
+        //    });
+
+        //});
+    </script>
+</head>
+<body>
+    <input type="text" id="text-input">
+    <input type="button" value="Send" id="send-button">
+    <button type="button" id="on">On</button>
+    <button type="button" id="off">Off</button>
+    <div id="messages"></div>
+</body>
+</html>
