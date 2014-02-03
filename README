@@ -1,0 +1,1 @@
+This project is to control GPIO pins on the RaspberryPi using node.js and sockets.io. I will also be using knockout.js for the interface
